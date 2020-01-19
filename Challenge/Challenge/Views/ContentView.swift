@@ -13,9 +13,9 @@ struct ContentView: View {
         NavigationView {
             ScrollView {
                 VStack {
-                    MatchView(homeTeam: "FLA", awayTeam: "GRE")
-                    MatchView(homeTeam: "BAH", awayTeam: "INT")
-                    MatchView(homeTeam: "COR", awayTeam: "CSA")
+                    MatchView(match: Match(homeTeam: "FLA", awayTeam: "GRE"))
+                    MatchView(match: Match(homeTeam: "BAH", awayTeam: "INT"))
+                    MatchView(match: Match(homeTeam: "COR", awayTeam: "CSA"))
                 }
             }
             .navigationBarTitle("Partidas")

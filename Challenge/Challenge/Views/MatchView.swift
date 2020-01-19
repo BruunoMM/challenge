@@ -3,20 +3,18 @@ import SwiftUI
 struct MatchView: View {
     let teamShieldSize: CGFloat = 60.0
     let xSymbolSize: CGFloat = 20.0
-    var homeTeam: String!
-    var awayTeam: String!
+    var match: Match!
     
-    init(homeTeam: String, awayTeam: String) {
-        self.homeTeam = homeTeam
-        self.awayTeam = awayTeam
+    init(match: Match) {
+        self.match = match
     }
     
     var body: some View {
         HStack() {
             HStack() {
-                Text(homeTeam)
+                Text(match.homeTeam)
                     .font(.system(size: 20.0))
-                Image(homeTeam)
+                Image(match.homeTeam)
                     .resizable()
                     .frame(width: teamShieldSize, height: teamShieldSize)
             }
@@ -26,10 +24,10 @@ struct MatchView: View {
                 .frame(width: xSymbolSize, height: xSymbolSize)
             Spacer()
             HStack() {
-                Image(awayTeam)
+                Image(match.awayTeam)
                     .resizable()
                     .frame(width: teamShieldSize, height: teamShieldSize)
-                Text(awayTeam)
+                Text(match.awayTeam)
                     .font(.system(size: 20.0))
             }
         }
@@ -40,6 +38,6 @@ struct MatchView: View {
 
 struct MatchView_Previews: PreviewProvider {
     static var previews: some View {
-        MatchView(homeTeam: "FLA", awayTeam: "GRE")
+        MatchView(match: Match(homeTeam: "FLA", awayTeam: "GRE"))
     }
 }
