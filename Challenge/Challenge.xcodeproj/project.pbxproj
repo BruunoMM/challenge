@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F3B670823D530FF00DDA0FF /* matches.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F3B670723D530FE00DDA0FF /* matches.json */; };
+		6F3B670A23D531EC00DDA0FF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B670923D531EC00DDA0FF /* DataManager.swift */; };
 		6FA0000023D5044D002BC6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0FFFF23D5044D002BC6CA /* ContentView.swift */; };
 		6FA0000223D5044F002BC6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA0000123D5044F002BC6CA /* Assets.xcassets */; };
 		6FA0000523D5044F002BC6CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA0000423D5044F002BC6CA /* Preview Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F3B670723D530FE00DDA0FF /* matches.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = matches.json; sourceTree = "<group>"; };
+		6F3B670923D531EC00DDA0FF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		6FA0000123D5044F002BC6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FA0000423D5044F002BC6CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6FA0000723D5044F002BC6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +45,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F3B670623D530E500DDA0FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		6FA0000323D5044F002BC6CA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,8 @@
 		6FA0FFFA23D5044D002BC6CA /* Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				6F3B670723D530FE00DDA0FF /* matches.json */,
+				6F3B670623D530E500DDA0FF /* Resources */,
 				6FA0001223D51310002BC6CA /* Models */,
 				6FA0000F23D504B7002BC6CA /* Views */,
 				6FA0FFFB23D5044D002BC6CA /* AppDelegate.swift */,
@@ -93,6 +106,7 @@
 				6FA0000623D5044F002BC6CA /* LaunchScreen.storyboard */,
 				6FA0000923D5044F002BC6CA /* Info.plist */,
 				6FA0000323D5044F002BC6CA /* Preview Content */,
+				6F3B670923D531EC00DDA0FF /* DataManager.swift */,
 			);
 			path = Challenge;
 			sourceTree = "<group>";
@@ -156,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FA0000823D5044F002BC6CA /* LaunchScreen.storyboard in Resources */,
+				6F3B670823D530FF00DDA0FF /* matches.json in Resources */,
 				6FA0000523D5044F002BC6CA /* Preview Assets.xcassets in Resources */,
 				6FA0000223D5044F002BC6CA /* Assets.xcassets in Resources */,
 			);
@@ -169,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FA0FFFC23D5044D002BC6CA /* AppDelegate.swift in Sources */,
+				6F3B670A23D531EC00DDA0FF /* DataManager.swift in Sources */,
 				6FA0FFFE23D5044D002BC6CA /* SceneDelegate.swift in Sources */,
 				6FA0001123D504CF002BC6CA /* MatchView.swift in Sources */,
 				6FA0001423D51331002BC6CA /* Match.swift in Sources */,

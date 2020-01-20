@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "home_team": "FLA",
+        "away_team": "GRE",
+        "location": "Maracanã"
+    },
+    {
+        "id": 2,
+        "home_team": "COR",
+        "away_team": "BAH",
+        "location": "Arena Corinthians"
+    },
+    {
+        "id": 3,
+        "home_team": "INT",
+        "away_team": "CSA",
+        "location": "Beira-Rio"
+    },
+    {
+        "id": 4,
+        "home_team": "VAS",
+        "away_team": "PAL",
+        "location": "São Januário"
+    },
+    {
+        "id": 5,
+        "home_team": "BOT",
+        "away_team": "FLU",
+        "location": "Engenhão"
+    },
+    {
+        "id": 6,
+        "home_team": "CAM",
+        "away_team": "SAO",
+        "location": "Mineirão"
+    },
+    {
+        "id": 7,
+        "home_team": "CEA",
+        "away_team": "CHA",
+        "location": "Arena Castelão"
+    },
+    {
+        "id": 8,
+        "home_team": "SAN",
+        "away_team": "CRU",
+        "location": "Vila Belmiro"
+    },
+    {
+        "id": 9,
+        "home_team": "GOI",
+        "away_team": "CAP",
+        "location": "Serra Dourada"
+    }
+]

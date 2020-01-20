@@ -9,17 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+        UITableView.appearance().separatorStyle = .none
+    }
+    
     var body: some View {
         NavigationView {
-            ScrollView {
-                VStack {
-                    MatchView(match: Match(homeTeam: "FLA", awayTeam: "GRE"))
-                    MatchView(match: Match(homeTeam: "BAH", awayTeam: "INT"))
-                    MatchView(match: Match(homeTeam: "COR", awayTeam: "CSA"))
-                }
+            VStack {
+                List(matches, rowContent: MatchView.init)
             }
             .navigationBarTitle("Partidas")
-            .navigationBarHidden(false)
         }
     }
 }
